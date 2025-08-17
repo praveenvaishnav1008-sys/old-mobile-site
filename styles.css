@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.search-container, .add-mobile-container {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#add-mobile-btn {
+    padding: 0.7rem 1.5rem;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-mobile-btn:hover {
+    background: #4cae4c;
+}
+
+#mobile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#mobile-table th, #mobile-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+#mobile-table th {
+    background-color: #f2f2f2;
+}
+
+#mobile-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#mobile-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+    #search-bar {
+        width: 80%;
+    }
+}
