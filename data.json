@@ -1,0 +1,32 @@
+[
+  {
+    "model": "iPhone X",
+    "price": "$300",
+    "condition": "Used",
+    "contact": "123-456-7890"
+  },
+  {
+    "model": "Samsung Galaxy S10",
+    "price": "$250",
+    "condition": "Used - Good",
+    "contact": "234-567-8901"
+  },
+  {
+    "model": "Google Pixel 4a",
+    "price": "$200",
+    "condition": "Refurbished",
+    "contact": "345-678-9012"
+  },
+  {
+    "model": "OnePlus 7T",
+    "price": "$280",
+    "condition": "Used - Like New",
+    "contact": "456-789-0123"
+  },
+  {
+    "model": "Xiaomi Redmi Note 9",
+    "price": "$150",
+    "condition": "Used",
+    "contact": "567-890-1234"
+  }
+]
